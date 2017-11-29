@@ -1,0 +1,33 @@
+{
+  "definitions": {}, 
+  "$schema": "http://json-schema.org/draft-04/schema#", 
+  "id": "http://example.com/example.json", 
+  "type": "object", 
+  "additionalProperties": false, 
+  "properties": {
+    "Application": {
+      "id": "/properties/Application", 
+      "type": "string"
+    }, 
+    "Version": {
+      "id": "/properties/Version", 
+      "type": "string"
+    }, 
+    "Uptime": {
+      "id": "/properties/Uptime", 
+      "type": "integer"
+    }, 
+    "Request_Count": {
+      "id": "/properties/Request_Count", 
+      "type": "integer"
+    }, 
+    "Error_Count": {
+      "id": "/properties/Error_Count", 
+      "type": "integer"
+    }, 
+    "Success_Count": {
+      "id": "/properties/Success_Count", 
+      "type": "integer"
+    }
+  }
+}
